@@ -5,7 +5,7 @@ resource "azurerm_kubernetes_cluster" "example" {
   dns_prefix          = var.dns_prefix
 
   default_node_pool {
-    name       = var.name
+    name       = var.nodename
     node_count = var.node_count
     vm_size    = var.vm_size
   }
@@ -13,3 +13,4 @@ resource "azurerm_kubernetes_cluster" "example" {
   identity {
     type = "var.identity"
   }
+}  
