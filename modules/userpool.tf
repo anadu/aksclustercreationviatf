@@ -11,7 +11,7 @@ resource "azurerm_kubernetes_cluster_node_pool" "user" {
 
   auto_scaling_enabled   = true
   min_count             = 1
-  max_count             = 10
+  max_count             = 2
 
  
   lifecycle {
