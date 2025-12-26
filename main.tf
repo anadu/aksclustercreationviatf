@@ -8,5 +8,13 @@ module "rg" {
     rg = var.rg
     subnetname = var.subnetname
     vnetname = var.vnetname
+    aksname = var.aksname
+    dns_prefix = var.dns_prefix
+    nodename = var.nodename
+    node_count = var.node_count
+    vm_size = var.vm_size
+    identity = var.identity
+
+
 }
 
