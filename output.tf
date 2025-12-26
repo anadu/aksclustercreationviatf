@@ -3,5 +3,5 @@ output "rg" {
 }
 
 output "subnet" {
-    value = module.rg.example.id
+    value = module.rg.subnet.id
 }
