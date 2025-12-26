@@ -6,5 +6,7 @@ provider "azurerm" {
 module "rg" {
     source = "./modules"
     rg = var.rg
+    subnetname = var.subnetname
+    vnetname = var.vnetname
 }
 
