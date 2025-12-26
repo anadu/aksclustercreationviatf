@@ -10,7 +10,7 @@ resource "azurerm_kubernetes_cluster" "example" {
     name       = var.nodename
     node_count = var.node_count
     vm_size    = var.vm_size
-    vnet_subnet_id = data.azurerm_subnet.example.id
+    
 
   }
 

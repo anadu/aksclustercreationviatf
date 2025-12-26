@@ -7,7 +7,7 @@ resource "azurerm_kubernetes_cluster_node_pool" "user" {
   mode                  = "User"
 
   vm_size               = "Standard_D4s_v5"
-  vnet_subnet_id        = data.azurerm_subnet.example.id
+  
 
   auto_scaling_enabled   = true
   min_count             = 1
