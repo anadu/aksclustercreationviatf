@@ -52,7 +52,7 @@ variable "userpool" {
 
 }
 
-variable "var.vmsizenode" {
+variable "vmsizenode" {
 
 }
 
