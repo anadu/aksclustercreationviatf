@@ -8,9 +8,10 @@ resource "azurerm_kubernetes_cluster" "example" {
     name       = var.nodename
     node_count = var.node_count
     vm_size    = var.vm_size
+
   }
 
   identity {
-    type = "var.identity"
+    type = var.identity
   }
 }  
