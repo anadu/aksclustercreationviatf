@@ -6,7 +6,7 @@ resource "azurerm_kubernetes_cluster_node_pool" "user" {
   name                  = "userpool"
   mode                  = "User"
 
-  vm_size               = "Standard_D4s_v5"
+  vm_size               = "Standard_D2_v2"
   
 
   auto_scaling_enabled   = true
