@@ -3,15 +3,15 @@ resource "azurerm_kubernetes_cluster_node_pool" "user" {
   count = var.create_user_pool ? 1 : 0
 
   kubernetes_cluster_id = azurerm_kubernetes_cluster.example.id
-  name                  = "userpool"
+  name                  = var.userpool
   mode                  = "User"
 
-  vm_size               = "Standard_D2_v2"
+  vm_size               = var.vmsizenode
   
 
   auto_scaling_enabled   = true
-  min_count             = 1
-  max_count             = 2
+  min_count             = var.min_count
+  max_count             = var.max_count
 
  
   lifecycle {

@@ -8,7 +8,12 @@ node_count = 1
 vm_size = "Standard_D2_v2"
 identity = "SystemAssigned"
 sku_tier  = "Standard"
- create_user_pool = true
+create_user_pool = true
+userpool = "aksuserpool"
+vmsizenode = "Standard_D2_v2"
+min_count = 1
+max_count = 2
+
 
 
 

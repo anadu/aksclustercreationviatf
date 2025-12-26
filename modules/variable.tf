@@ -46,3 +46,20 @@ variable "create_user_pool" {
   type    = bool
   default = false
 }
+
+
+variable "userpool" {
+
+}
+
+variable "var.vmsizenode" {
+
+}
+
+variable "min_count" {
+
+}
+
+variable "max_count" {
+    
+}

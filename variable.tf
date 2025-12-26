@@ -43,5 +43,22 @@ variable "sku_tier" {
 }
 
 variable "create_user_pool" {
+
+}
+
+variable "userpool" {
+
+}
+
+variable "var.vmsizenode" {
+
+}
+
+variable "min_count" {
+
+}
+
+variable "max_count" {
     
 }
+

@@ -16,7 +16,10 @@ module "rg" {
     identity = var.identity
     sku_tier = var.sku_tier
     create_user_pool = var.create_user_pool
-
+    userpool = var.userpool
+    vmsizenode = var.vmsizenode
+    min_count = var.min_count
+    max_count = var.max_count
 
 }
 
