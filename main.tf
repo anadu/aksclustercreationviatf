@@ -14,6 +14,7 @@ module "rg" {
     node_count = var.node_count
     vm_size = var.vm_size
     identity = var.identity
+    sku_tier = var.sku_tier
 
 
 }
