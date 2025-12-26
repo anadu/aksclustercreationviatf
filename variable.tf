@@ -37,3 +37,7 @@ variable "vm_size" {
 variable "identity" {
     
 }
+
+variable "sku_tier" {
+    
+}
