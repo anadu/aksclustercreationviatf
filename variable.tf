@@ -50,7 +50,7 @@ variable "userpool" {
 
 }
 
-variable "var.vmsizenode" {
+variable "vmsizenode" {
 
 }
 
@@ -59,6 +59,6 @@ variable "min_count" {
 }
 
 variable "max_count" {
-    
+
 }
 
