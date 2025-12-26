@@ -39,5 +39,9 @@ variable "identity" {
 }
 
 variable "sku_tier" {
+
+}
+
+variable "create_user_pool" {
     
 }
